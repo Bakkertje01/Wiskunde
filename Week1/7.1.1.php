@@ -9,20 +9,20 @@
     $gewicht1 = 90;
     $lengte1 = 1.80;
 
-    $opdracht1 = $gewicht1 / ($lengte1 * $lengte1);
+    $bmi = $gewicht1 / ($lengte1 * $lengte1);
 
     echo "opdracht 1: ";
 
-    if($opdracht1 < 18) {
+    if($bmi < 18) {
         echo "Ondergewicht";
     }
-    elseif($opdracht1 < 25){
+    elseif($bmi < 25){
         echo "Normaal gewicht";
     }
-    elseif($opdracht1 < 30){
+    elseif($bmi < 30){
         echo "Overgewicht";
     }
-    elseif($opdracht1 < 40){
+    elseif($bmi < 40){
         echo "Ernstig overgewicht";
     }
 
@@ -34,7 +34,7 @@
     $nieuwgetal = $gewicht2 / $bmi2;
     $opdracht2 = $nieuwgetal / 2;
 
-    echo $opdracht2." meter";
+    echo round($opdracht2, 2)." meter";
 
     echo "<br>opdracht 3: ";
 
@@ -45,7 +45,7 @@
 
     $opdracht3 = $bmi3 * $nieuwelengte3;
 
-    echo $opdracht3."kg";
+    echo round($opdracht3,1)."kg";
 
     echo "<br>opdracht 4: ";
 
@@ -56,7 +56,7 @@
 
     $opdracht4 = $gewicht4 / $ding;
 
-    echo $opdracht4." bmi";
+    echo round($opdracht4,1)." bmi";
 
 
 ?>
