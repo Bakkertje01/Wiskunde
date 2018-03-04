@@ -10,7 +10,7 @@
     function opbrengstCalc($autos, $bussen)
                     {
                         echo "prijs van auto's €" . $autos * 3 ." prijs van bussen € " .$bussen * 10  ."</br>";
-                        echo "Totaal: " . ($autos * 3 + $bussen * 5);
+                        echo "Totaal: " . ($autos * 3 + $bussen * 10);
                     }
 
     opbrengstCalc(40,5);
