@@ -9,7 +9,7 @@
     echo "Wat is de opbrengst als er 40 personenautos en 5 autobussen komen?<br>";
     function opbrengstCalc($autos, $bussen)
                     {
-                        echo "prijs van auto's €" . $autos * 3 ." prijs van bussen € " .$bussen * 5 ."</br>";
+                        echo "prijs van auto's €" . $autos * 3 ." prijs van bussen € " .$bussen * 10  ."</br>";
                         echo "Totaal: " . ($autos * 3 + $bussen * 5);
                     }
 
