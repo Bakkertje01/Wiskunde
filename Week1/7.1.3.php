@@ -8,7 +8,7 @@
 
 function n($n)
 {
-    echo $n." = ";
+    echo "n".$n." = ";
     echo $n;
     while ($n !== 1) {
         ($n & 1) ? $n = ($n * 3) + 1 : $n /= 2;

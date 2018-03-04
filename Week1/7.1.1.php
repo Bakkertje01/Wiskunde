@@ -58,7 +58,7 @@
 
         echo round($opdracht4, 1) . " bmi";
     }
-    bmiCalc2(200, 35)
+    bmiCalc2(75, 1.80)
 
 
 ?>
